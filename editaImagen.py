@@ -3,7 +3,6 @@ from urllib.request import urlopen
 
 def agregaTexto(texto, imagen):
 	imagen=Image.open(urlopen(imagen))
-	print("a");
 	points=int(imagen.size[0]*6/100) #tamaño de la fuente
 	
 	fuente=ImageFont.truetype("Recursos/fuente.ttf",points)

@@ -7,7 +7,7 @@ try:
 	print(frase)
 	editaImagen.agregaTexto(frase, imagen)
 	print("imagen editada")
-	#bot.publicaImagen()
+	bot.publicaImagen()
 	print("imagen publicada")
 	time.sleep(15)
 
