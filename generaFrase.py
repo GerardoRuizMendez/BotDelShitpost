@@ -2,6 +2,7 @@ from pickle import TRUE
 import random, sqlite3
 
 conexion=sqlite3.connect("BBDD/frases")
+
 cursor=conexion.cursor()
 
 def genera():
