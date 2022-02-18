@@ -1,11 +1,12 @@
-import bot, editaImagen, generaImagen, time
+import bot, editaImagen, generaImagen, time, generaFrase
 
 try:
 	imagen=generaImagen.genera()
 	print("imagen generada")
-	editaImagen.agregaTexto("Aceituna", imagen)
+	frase=generaFrase.genera()
+	editaImagen.agregaTexto("frase", imagen)
 	print("imagen editada")
-	bot.publicaImagen()
+	#bot.publicaImagen()
 	print("imagen publicada")
 	time.sleep(15)
 
